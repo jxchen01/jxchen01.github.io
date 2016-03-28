@@ -27,8 +27,6 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "//jxchen01.github.io/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
 
 # Sass
 sass:
