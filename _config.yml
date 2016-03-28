@@ -26,7 +26,7 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
+    href:           "//jxchen01.github.io/about"
   - name:           "Download"
     href:           "//github.com/gfjaru/Kiko/releases"
 
