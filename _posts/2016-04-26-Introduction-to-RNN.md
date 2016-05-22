@@ -104,6 +104,11 @@ Grid-LSTM: Extra connections are added in the LSTM in order to further explore t
 
 <br>
 
+# Applications
+====
+
+Learn more application? Check out this awesome [list](https://github.com/kjw0612/awesome-rnn).
+
 
 ##### Extra Materials 
 * [Batch Normalization in RNN](https://github.com/iassael/torch-bnlstm) 

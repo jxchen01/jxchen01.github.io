@@ -1,51 +1,74 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+# Site
+title:              Moon
+bio:                'Minimal, one column jekyll theme.'
+description:        "Moon is a minimal, one column jekyll theme for your blog."
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+background:         'assets/img/placeholder-big.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                http://taylantatli.me/Moon
 
-# Basic
-name:               "Home x Work :  Jianxu Chen"
-description:        "Personal Blog"
-
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kiko.gfjaru.com"
-author:             "gfjaru"
-twitter:
-  username:         "gfjaru"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
-
-# URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title/
-
-# Markdown
+# Jekyll
+permalink:          /:title/
 markdown:           kramdown
-
-# Navigation
-nav:
-  - name:           "About"
-    href:           "//jxchen01.github.io/about"
-
-# Sass
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
 sass:
-  style:            :compressed
+  sass_dir:         _sass
+  style:            compressed
 
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+# Comments
+disqus_shortname:   taylantatli
 
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+#twitter:            username
+#facebook:           username
+github:             jxchen01
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           https://www.linkedin.com/in/jianxuchen
+#xing:              username
+instagram:          jxchen01
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
 gems:
-  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
