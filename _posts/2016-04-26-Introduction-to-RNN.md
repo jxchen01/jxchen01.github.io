@@ -1,4 +1,3 @@
-# Introduction
 
 In this material, I will try to answer two questions (1) what is RNN, and (2) how it works, using examples in natural language processing (NLP) and computer vision (CV).  
 
