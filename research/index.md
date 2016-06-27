@@ -1,13 +1,6 @@
 ---
 layout: project
-title: All Projects
-excerpt: "A List of Projects"
+title: My Research
+excerpt: "A List of Researches"
 ---
 
-
-dfdf dfdf 
-[link](dp.html)
-
-
-ddsdsd 
-[link](dp.html)
