@@ -1,6 +1,6 @@
 ---
 layout: project
 title: My Research
-excerpt: "A List of Researches"
+excerpt: "A List of Research"
 ---
 
