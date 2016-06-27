@@ -1,8 +1,8 @@
 ---
-layout: project
-title: All Projects
+layout: research
+title: Research
 excerpt: "A List of Projects"
 ---
 
-
+dfdf dfdf 
 [link](dp.html)
