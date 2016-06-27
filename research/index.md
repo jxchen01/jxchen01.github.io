@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Research
+title: All Projects
 excerpt: "A List of Projects"
-comment:true
 ---
+
 
 dfdf dfdf 
 [link](dp.html)
