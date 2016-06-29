@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me (Jianxu Chen)
+title: About Me (Jianxu Chen) and This Site
 tags: about
 date: 2016-03-21
 ---
