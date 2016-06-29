@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About Me
+title: About Me (Jianxu Chen)
 tags: about
 date: 2016-03-21
 ---
 
-*  Name: Jianxu Chen
-*  Affiliation: Graduate student at the University of Notre Dame
-*  Advisor: [Danny Chen](www.nd.edu/~dchen)
-*  Research Area: Medical Image Analysis
-*  B.S. (2007-2011): School of Mathematics at the University of Science and Technology of China (USTC)
+I am a Graduate student at the University of Notre Dame (Advisor: [Danny Chen](www.nd.edu/~dchen)). My research area is medical image analysis. I received my B.S. degree from School of Mathematics at the University of Science and Technology of China (USTC) at 2011. 
+------
 
 Medical imaging is so fascinating that I would like to devote my career on solving all the variety of chanllenging problems in this field. Medical image anaysis is closely related to a lot of fields, such as computer vision, image analysis, machine learning, statistics, and even computation geometry. 
 
