@@ -5,7 +5,6 @@ date:   2016-06-27
 excerpt: "This is post excerpt. You can delete this line if you want an auto generated excerpt."
 project: true
 comments: true
-feature: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYl5bDPdwm-bAP-YiEqqK4JdiUZDoDC_L966dfiqoP4BFWD8FY
 ---
 
 # Think about Deep Learning 
