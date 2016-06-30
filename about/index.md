@@ -5,11 +5,11 @@ tags: about
 date: 2016-03-21
 ---
 
-### Who am I?
+### About me
 
 My name is Jianxu Chen ([pronounciation](https://translate.google.com/#en/zh-CN/Jianxu%20Chen)). I am a Graduate student of the Department of Computer Science and Engineering at the University of Notre Dame (Advisor: [Danny Chen](www.nd.edu/~dchen)). My research area is medical image analysis. I received my B.S. degree from School of Mathematics at the University of Science and Technology of China [(USTC)](http://en.ustc.edu.cn/) at 2011. 
 
-### What is this website about?
+### About this website
 
 Medical imaging is so fascinating that I would like to devote my career on solving all the variety of chanllenging problems in this field. Medical image anaysis is closely related to a lot of fields, such as computer vision, image analysis, machine learning, statistics, and even computation geometry. 
 
