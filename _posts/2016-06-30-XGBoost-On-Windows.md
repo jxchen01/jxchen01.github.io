@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "XGBoost on Windows 7"
+date:   2016-06-30
+excerpt: "Use XGBoost on Windows 7"
+project: false
+comments: true
+---
+
 # XGBoost on Windows 7
 
 I am trying to perform some experiments using XGBoost for a complex classification problem. [XGBoost](https://github.com/dmlc/xgboost) is a new boosting tree algorithm in machine learning and has achieved huge success in several big data competitions. 

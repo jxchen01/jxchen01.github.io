@@ -13,7 +13,7 @@ In the recent five years, deep learning has become a game changer in lots of eng
 
 ### My Deep Learning Study Note
 
-My study note can be found [here](Think-About-Deep-Learning.md), including CNN, RNN, Reinforcement Learning, and lists of interesting papers to read. 
+My study note can be found [here]({{site.url}}/Think-About-Deep-Learning), including CNN, RNN, Reinforcement Learning, and lists of interesting papers to read. 
 
 ### My Project
 
