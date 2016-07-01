@@ -1,4 +1,5 @@
----
+
+<!-- ---
 layout: post
 title:  "Think about Deep Learning"
 date:   2016-06-27
@@ -6,12 +7,12 @@ excerpt: "This is post excerpt. You can delete this line if you want an auto gen
 project: true
 comments: true
 ---
+-->
+
 
 # Think about Deep Learning 
 
-I built this webpage to host my notes, thoughts and resources I collected during my study of deep learning (DL). Some of the tutorials were written by myself, while a large number of online rescoures are also included. 
-
-Briefly, I am a 5th-year graduate student at the University of Notre Dame. My researches focus on medical image analysis. So, my DL study was aiming at medical imaging applications. 
+I built this webpage to host my notes, thoughts and resources I collected during my study of deep learning (DL). Some of the tutorials were written by myself, while a large number of online rescoures are also included. Since my researches focus on medical image analysis, my DL study was aiming more at medical imaging applications. 
 
 ## Introduction to Convolutional Neural Network (CNN)
 
