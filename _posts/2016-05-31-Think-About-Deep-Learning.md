@@ -1,14 +1,11 @@
-
-<!-- ---
+---
 layout: post
 title:  "Think about Deep Learning"
 date:   2016-06-27
-excerpt: "This is post excerpt. You can delete this line if you want an auto generated excerpt."
+excerpt: "My deep learning study note and reading list."
 project: true
 comments: true
 ---
--->
-
 
 # Think about Deep Learning 
 
