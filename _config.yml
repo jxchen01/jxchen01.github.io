@@ -30,9 +30,9 @@ disqus_shortname:   home-work
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:       UA-74851306-1
   #verify:
   #ad-client:
   #ad-slot:
@@ -44,7 +44,7 @@ github:             jxchen0910
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           jianxuchen
 #xing:              username
-instagram:          jxchen01
+instagram:          jxchen0910
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
