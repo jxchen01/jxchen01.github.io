@@ -3,7 +3,6 @@ layout: post
 title:  "XGBoost on Windows 7"
 date:   2016-06-30
 excerpt: "Use XGBoost on Windows 7"
-project: false
 comments: true
 ---
 

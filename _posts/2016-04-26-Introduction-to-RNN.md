@@ -1,4 +1,12 @@
 
+---
+layout: post
+title:  "Introduction to RNN"
+date:   2016-04-26
+excerpt: "A Gentle Introduction to Recurrent Neural Network"
+comments: true
+---
+
 In this material, I will try to answer two questions (1) what is RNN, and (2) how it works, using examples in natural language processing (NLP) and computer vision (CV).  
 
 Other key points will be covered:
