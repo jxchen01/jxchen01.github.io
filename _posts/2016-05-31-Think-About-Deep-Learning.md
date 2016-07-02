@@ -3,7 +3,6 @@ layout: post
 title:  "Think about Deep Learning"
 date:   2016-05-31
 excerpt: "My deep learning study note and reading list."
-project: false
 comments: true
 ---
 
