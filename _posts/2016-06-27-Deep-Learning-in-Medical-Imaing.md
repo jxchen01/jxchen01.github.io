@@ -17,7 +17,7 @@ My study note can be found [here]({{site.url}}/Think-About-Deep-Learning), inclu
 
 ### My Project
 
-
+This project is still in condifential stage and will be released soon.
 
 
 

@@ -12,10 +12,11 @@ I am trying to perform some experiments using XGBoost for a complex classificati
 
 To setup XGBoost on Windows 7, I strictly followed this [instruction](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Installing_XGBoost_For_Anaconda_on_Windows?lang=en#action=addcomment). One issue (should be solved soon officially) is [here](https://github.com/dmlc/xgboost/issues/1267). Everything works fine now.
 
-<img src="{{ site.url }}/pic/xgboost.png" alt="Smiley face" height="42" width="42">
 
 Let's Rock!
 
-The following two tutorials on how to tuning the parameters can be useful.
+The following two tutorials on how to tuning the parameters may be useful.
 + [Parameter Tuning in Gradient Boosting](http://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/)
 + [Parameter Tuning in XGBoost](http://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+
+<img src="{{ site.url }}/pic/xgboost.png" alt="Smiley face" height="42" width="42">
