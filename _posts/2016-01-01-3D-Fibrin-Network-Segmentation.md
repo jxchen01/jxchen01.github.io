@@ -15,6 +15,8 @@ In fact, the common role of a computer algorithm plays is to reduce the human ef
 
 <img src="{{ site.url }}/pic/fibrin_network_overview.png" alt="Overview" height="42" width="42">
 
+The 3D reconstruction of a small cubic region:
+
 <img src="{{ site.url }}/pic/fibrin_network_recon.png" alt="Reconstruction" height="42" width="42">
 
 The problem consists of two parts: obtaining the binary mask of fibrin networks from fluorescent images and identifying the network structure from the binary mask. (This is a typical step-by-step solution with analyzing the network structure as the ultimate goal. Other end-to-end models may be available.) 
