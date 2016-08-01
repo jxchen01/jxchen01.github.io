@@ -7,7 +7,7 @@ project: true
 comments: true
 ---
 
-# 3D Fibrin Network (interlacing tubular structures) Segmentation
+# 3D Fibrin Network (interlacing tubular structures) Segmentation and Structure Identification
 
 Fibrin network is an essential strucutre during the formation of blood clots. Quantitive analysis of the topological and morphological strucutres of the networks plays a critical role in the study of thrombus. 
 
@@ -15,7 +15,7 @@ In fact, the common role of a computer algorithm plays is to reduce the human ef
 
 A Maximal Intensity Projection (MIP) visualization of a z-stack images of fibrin networks is shown below.
 
-<img src="{{ site.url }}/pic/fibrin_network_overview.png" alt="Overview" height="36" width="36">
+<img src="{{ site.url }}/pic/fibrin_network_overview.png" alt="Overview" height="30" width="30">
 
 Here is the 3D reconstruction of a small region of the whole network.
 
@@ -30,11 +30,11 @@ The identification of the network structure is done by 3D thinning and structure
 
 Second, we need to prune the short spurs caused by non-smoothness in the binary mask, false connections occur between proximal fibers, like the following case. 
 
-<img src="{{ site.url }}/pic/fibrin_network_false_connection.png" alt="fp" height="25" width="50">
+<img src="{{ site.url }}/pic/fibrin_network_false_connection.png" alt="fp" height="18" width="36">
 
 Finally, a common issue in 3D thinning is the duplication of intersection points. See the picutre below. We address this issue by analyzing the relative distance and angles between the connected branches of each pair of neighboring and proximal intersection points. 
 
-<img src="{{ site.url }}/pic/fibrin_network_cross.png" alt="cross" height="36" width="36">
+<img src="{{ site.url }}/pic/fibrin_network_cross.png" alt="cross" height="28" width="28">
 
 Evaluated on real 3D fibrin network datasets, our algorithm achieved signification improvement over the beest known method. 
 
