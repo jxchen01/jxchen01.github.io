@@ -13,6 +13,7 @@ I developed an iris recognition method based on detecting and matching of human 
 
 ***
 The source code is available at [HERE](http://ott.nd.edu/software-available-for-license/iris-recognition-based-on-human-intrepretable-features/) for academic use only. Please email me (jchen16@nd.edu) for the download authorization code. 
+
 ***
 
 
