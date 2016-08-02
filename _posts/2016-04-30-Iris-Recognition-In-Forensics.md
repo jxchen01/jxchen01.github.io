@@ -16,7 +16,7 @@ The source code is available [HERE](http://ott.nd.edu/software-available-for-lic
 
 ***
 
-<img src="{{ site.url }}/pic/iris_crypt.png" alt="crypt" style="width: 300px;">
+<img src="{{ site.url }}/pic/iris_crypt.png" alt="crypt" style="width: 600px;">
 
 ### Motivation:
 In law-enforcement applications, iris is a (arguablly) less well-established biometric trait than fingerprint. Classic iris recognition algorithms work as a black-box: images in and scores out. One possible way to promote iris recognition in the field of forensics is to make the identification procedure visible and interpretable to human, just like fingerprint matching, and so that human experts can excercise judgement in making the final decision. It has been shown that iris crypts can work just like minutia on fingerprints ([paper](http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1693595)).
@@ -28,13 +28,13 @@ The approach consists of two steps: segmentation and matching.
 
 The proposed iris crypts segmentation algorithm takes as input the unwrapped iris sheet and generates a binary mask of the same size containing detected crypts. The algorithm applys a morphological operation in a hierarchical manner, illustrated as follows. 
 
-<img src="{{ site.url }}/pic/iris_segmentation.png" alt="segmentation" style="width: 600px;">
+<img src="{{ site.url }}/pic/iris_segmentation.png" alt="segmentation" style="width: 650px;">
 
 To match the detected crypts accross different images, we used the matching model based on Earth Mover's Distance, which I primarily developed for matching cells accrossed consecutive frames. See this [post] for details.
 
-One example is shown below. The red windows indicate some topological changes in the detected crypts. Our matching model is shown to be able to handle such topology variation to make a reliable matching.
+One example is shown below. The matched crypts are displayed in the same color. The red windows indicate some topological changes in the detected crypts. Our matching model is shown to be able to handle such topology variation to make a reliable matching.
 
-<img src="{{ site.url }}/pic/iris_match.png" alt="matching" style="width: 500px;">
+<img src="{{ site.url }}/pic/iris_matching.png" alt="matching" style="width: 500px;">
 
 
 
