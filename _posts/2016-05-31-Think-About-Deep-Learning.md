@@ -61,6 +61,7 @@ More resources:
 * Style transfer [paper](http://arxiv.org/abs/1508.06576) and [code](https://github.com/fzliu/style-transfer)
 * Extreme Learning machine, another type of machine learning algorithms which is closers to human brain [review paper](http://www.sciencedirect.com/science/article/pii/S0893608014002214)
 * Binary CNN: [paper1](http://arxiv.org/abs/1511.00363) and [paper2](http://arxiv.org/abs/1603.05279)
+* Combining CNN with Active Contour: [paper](http://arxiv.org/pdf/1607.05074v1.pdf)
 * CNN on graphs: Extend classic CNN which applies on grids (e.g., images) to graph data [paper1](http://arxiv.org/abs/1605.05273) and [paper2](http://arxiv.org/abs/1506.05163)
 * A comprehensive comparison of different choices in each component in CNN, such as different activation function or different pooling. [link](http://arxiv.org/abs/1606.02228)
 * CNN in convert sketch to image, [link](https://arxiv.org/abs/1606.03073)

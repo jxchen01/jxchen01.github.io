@@ -15,11 +15,11 @@ In fact, the common role of a computer algorithm plays is to reduce the human ef
 
 A Maximal Intensity Projection (MIP) visualization of a z-stack images of fibrin networks is shown below.
 
-<img src="{{ site.url }}/pic/fibrin_network_overview.png" alt="Overview" height="30" width="30">
+<img src="{{ site.url }}/pic/fibrin_network_overview.png" alt="Overview" style="width: 10px;">
 
 Here is the 3D reconstruction of a small region of the whole network.
 
-<img src="{{ site.url }}/pic/fibrin_network_recon.png" alt="Reconstruction" height="42" width="42">
+<img src="{{ site.url }}/pic/fibrin_network_recon.png" alt="Reconstruction" style="width: 20px;">
 
 
 The problem consists of two parts: obtaining the binary mask of fibrin networks from fluorescent images and identifying the network structure from the binary mask. (This is a typical step-by-step solution with analyzing the network structure as the ultimate goal. Other end-to-end models may be available.) 
