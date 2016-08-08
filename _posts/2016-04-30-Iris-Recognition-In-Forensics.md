@@ -45,3 +45,8 @@ The source code is released through the Office of Technolgy Transfer at the Univ
 ### References
 *  Jianxu Chen, Feng Shen, Danny Z. Chen, and Patrick J. Flynn. "Iris recognition based on human-interpretable features." IEEE Transactions on Information Forensics and Security, vol. 11, no. 7, pp. 1476-1485, 2016
 *  Jianxu Chen, Feng Shen, Danny Z. Chen, and Patrick J. Flynn. "Iris recognition based on human-interpretable features." In Proc. IEEE Conference on Identity, Security and Behavior Analysis (ISBA), pp. 1-6, 2015.
+
+### Link
+
+[IEEE version](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7422104)
+[Research Gate link](https://www.researchgate.net/publication/301727526_Iris_Recognition_Based_on_Human-Interpretable_Features)
