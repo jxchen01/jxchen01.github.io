@@ -95,8 +95,48 @@ It is worth mentioning that the Loss function used in images can be found [here]
 
 ### Prepare the Training Data
 
+First, we can select different functions to load training data in different situations, such as when datasize is larger than a number, we may want to load training data in a specific way. 
+
 		function fn = getBatch_fcn(opt)
-		%%%%% defining the r
-fn = @(im_datebase,batch) my_deep_learning_getBatch(im_datebase,batch,options_for_training.trainingdata) ;
+		% defining the rule for selecting different ways to load training data. 
+		if (....)
+			fn = @(im_datebase,batch) my_deep_learning_getBatch(im_datebase,batch,options_for_training.trainingdata) ;
+		else
+			....
+		end
+		
+When you acutally start to load the data, you simply need to trigger the i/o according to two variables: "im_database" and "batch". Here, "batch" contains the indices of the data to load in this iteration. With these indices we can fetch the information, like filenames, from "im_database". 
+
+Note 1: After setting the numbers in im_database.images.set, you have told the program which are for training. So, the indices in "batch" in the training iterations will not contain those images you saved for validation or evaluation.
+
+Note 2: Deep learning models usually need a large amount of training data. Hence, we only keep the filenames and directory in "im_database", instead of the actually data. 
+
+To load the data, you need a function like this:
+
+	function training_input = my_deep_learning_getBatch(im_datebase,batch,opts) ;
+		training_images = single(zeros(XXX, YYY, ZZZ, numel(batch)));
+		target_labels = single(zeros(XXX, YYY, 1, numel(batch)));
+		
+		for idx=1:numel(batch)
+			%%% load from im_database the image and label whose index are "batch(idx)"
+			imread(....); 
+			imread(....);
+		end
+		
+		if(numel(opt.gpus)>0 && opt.gpus>0)
+			training_input={'input', gpuArray(training_images), 'label', gpuArray(target_labels)};
+		else
+			training_input={'input', training_images, 'label', target_labels};
+		end
+
+
+Note 3: In the struct "training_input", there are two entries: "input" and "label". These names must match with variable names for input and label you used when defining the model. 
+
+Note 4: Sometimes, you may want to have multiple predictions, i.e., multiple labels. You can simply assign these different labels as different entries in "training_input", and use the same names for the corresponding output in defining the model.
+
 
 ### Setting Optimizer for Training
+
+Common options for needed for optimizer can be found in the first few lines at [cnn_train_dag.m](https://github.com/vlfeat/matconvnet/blob/master/examples/cnn_train_dag.m).
+
+Important parameters include, numEpochs, batchSize, learningRate, momentum, weightDecay, etc.. A tutorial for how to determine these hyperparameters can be found [here](http://caffe.berkeleyvision.org/tutorial/solver.html).
