@@ -17,7 +17,9 @@ My study note can be found [here]({{site.url}}/Think-About-Deep-Learning), inclu
 
 ### My Project
 
-This project is still in condifential stage and will be released soon.
+I developed a deep learning model for 3D segmentation in biomedical images. The paper will appear in NIPS 2016. The key idea is to perform 2D FCN in each frame to abstract intra-slice context and perform LSTM in consecutive frames to extract inter-slice context. The new model opens the door to migrating 2D deep neural networks to solve 3D problems efficiently. 
+
+More details are coming soon. 
 
 
 
