@@ -53,6 +53,11 @@ More resources:
 	* deep colorization [link](http://www.cs.cityu.edu.hk/~qiyang/publications/iccv-15.pdf)
 	* a recent work [link](http://arxiv.org/pdf/1603.08511.pdf)
 * MUST READ: Online hard example mining [(OHEM)](https://arxiv.org/pdf/1604.03540v1.pdf). I have thought about this idea for a long time. It is finally solved. 
+* An important paper: Bayesian Deep Learning. [link](http://arxiv.org/pdf/1608.06884.pdf). The key idea is to elaborate a model to unify deep learning and graphical models.
+* 3D segmentation:
+	* voxResNet: [link](https://arxiv.org/abs/1608.05895)
+	* 3d u-net: [link](https://arxiv.org/abs/1606.06650)
+	* Recurrent FCN: [link](https://arxiv.org/abs/1608.03974) 
 * Point-level supervision for semantic segmentation: [(paper)](http://arxiv.org/abs/1506.02106). I have been seeking an elegant way to utilize point level supervision for a long time. This work provides some good experiments and thoughts. In this paper, however, the labelled points in each image still requires to cover all instance (one point per intance), which is not feasible in certain circumstances.   
 * Expressive power of DNN: People may say DNN is able to express very complex non-linear function. But how to quantify such capability? I just found this paper to read. [link](http://arxiv.org/abs/1606.05336) 
 * New Schemes for parameter initialization in CNN, two papers in ICLR 2016: [paper1](http://arxiv.org/pdf/1511.06856v2.pdf) [paper2](http://arxiv.org/pdf/1511.06422v7.pdf)
@@ -69,6 +74,8 @@ More resources:
 * Object detection using R-FCN, [link](https://arxiv.org/abs/1605.06409)
 * Pixel Recuurent Neural Network (best paper in ICML 2016), [link](http://arxiv.org/abs/1601.06759?url_type=39&object_type=webpage&pos=1)
 * Edge detection by DNN. [github link](https://github.com/s9xie/hed/blob/master/README.md)
+* Densely connected CNN [link](http://arxiv.org/pdf/1608.06993.pdf)
+* Wide Residual Network [Torch code](https://github.com/szagoruyko/wide-residual-networks),[paper](http://arxiv.org/abs/1605.07146)
 * A nice guide of Tensorflow, [link](https://www.oreilly.com/learning/hello-tensorflow) 
 
 
