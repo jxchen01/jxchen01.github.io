@@ -15,11 +15,12 @@ In the recent five years, deep learning has become a game changer in lots of eng
 
 My study note can be found [here]({{site.url}}/Think-About-Deep-Learning), including CNN, RNN, Reinforcement Learning, and lists of interesting papers to read. 
 
-### My Project
+### My First Project
 
-I developed a deep learning model for 3D segmentation in biomedical images. The paper will appear in NIPS 2016. The key idea is to perform 2D FCN in each frame to abstract intra-slice context and perform LSTM in consecutive frames to extract inter-slice context. The new model opens the door to migrating 2D deep neural networks to solve 3D problems efficiently. 
+I developed a deep learning model for 3D segmentation in biomedical images. The paper will appear in NIPS 2016. [(NIPS 2016 Accepted Papers)](https://nips.cc/Conferences/2016/AcceptedPapers) 
 
-More details are coming soon. 
+The motivation of this work is that 3D medical images are not always isotropic (i.e., each voxel usually has larger scale in z-dimention than x,y-dimension.) In other words, 3D medical images are often viewed as a stack of 2D slices. So, the key idea of our solution is to perform 2D FCN in each 2D slice to abstract intra-slice context and perform LSTM in consecutive slices to extract inter-slice context. The new model opens the door to migrating 2D deep neural networks to solve 3D problems efficiently. More details are coming soon. 
+
 
 
 
