@@ -22,15 +22,20 @@ See my post [here](http://www3.nd.edu/~jchen16/2016-04-26-introduction-to-rnn.ht
 
 I don't have too much experience in deep reinforcement learning (DRL). To my understanding, this is a more general deep learning algorithm, but relatively less tailored for specific computer vision problems. 
 
-Here is an awesome introduction to DRL: [link](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/). Several additional sources can be found in the external links in this post.
-
 DRL is attracting more and more attentions nowadays. It is probably due to the success of DeepMind (AlphaGo). One key algorithm is the so-called Deep Q-Learning. Some implementations can be found at [link1](https://github.com/tambetm/DeepMind-Atari-Deep-Q-Learner), [link2](https://github.com/SeanNaren/TorchQLearningExample), [link3](https://github.com/kuz/DeepMind-Atari-Deep-Q-Learner), and [link4](https://github.com/iassael/torch-bootstrapped-dqn).
 
-A very interesting work published recently is to use Deep Q-learning to accelerate the training of CNN ([paper](http://arxiv.org/abs/1606.01467)).
+Jump Start:
+
+* Essential Idea of DRL: [(link)](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/). Several additional sources can be found in the external links in this awesome post.
+* High-level description of each key component in DRL: Andrej Karpathy's blog [(link)](http://karpathy.github.io/2016/05/31/rl/)
+* Complete Introduction: John Schulman's course [(link)](http://rll.berkeley.edu/deeprlcourse/#syllabus)   
+
 
 More resources: 
-* A post from Andrej Karpathy, [link](http://karpathy.github.io/2016/05/31/rl/)
-* The most recent tutorial [(link)](http://icml.cc/2016/tutorials/deep_rl_tutorial.pdf) on ICML 2016.
+
+* A very interesting work published recently is to use Deep Q-learning to accelerate the training of CNN ([paper](http://arxiv.org/abs/1606.01467)).
+ 
+* The most recent tutorial [(link)](http://icml.cc/2016/tutorials/deep_rl_tutorial.pdf) on ICML 2016. (Note: Really inspiring!)
 
 ## Papers to read
 
