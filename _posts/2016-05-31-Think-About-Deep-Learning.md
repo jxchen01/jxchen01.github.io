@@ -28,7 +28,7 @@ Jump Start:
 
 * Essential Idea of DRL: [(link)](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/). Several additional sources can be found in the external links in this awesome post.
 * High-level description of each key component in DRL: Andrej Karpathy's blog [(link)](http://karpathy.github.io/2016/05/31/rl/)
-* Complete Introduction: John Schulman's course [(link)](http://rll.berkeley.edu/deeprlcourse/#syllabus)   
+* Complete Introduction: David's course [(link)](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) and John Schulman's course [(link)](http://rll.berkeley.edu/deeprlcourse/#syllabus) 
 
 
 More resources: 
@@ -57,13 +57,13 @@ More resources:
 	* a webpage describing recent works, [link](http://richzhang.github.io/colorization/)
 	* deep colorization [link](http://www.cs.cityu.edu.hk/~qiyang/publications/iccv-15.pdf)
 	* a recent work [link](http://arxiv.org/pdf/1603.08511.pdf)
-* MUST READ: Online hard example mining [(OHEM)](https://arxiv.org/pdf/1604.03540v1.pdf). I have thought about this idea for a long time. It is finally solved. 
+* ~~MUST READ: Online hard example mining [(OHEM)](https://arxiv.org/pdf/1604.03540v1.pdf). I have thought about this idea for a long time. It is finally solved.~~ 
 * An important paper: Bayesian Deep Learning. [link](http://arxiv.org/pdf/1608.06884.pdf). The key idea is to elaborate a model to unify deep learning and graphical models.
 * 3D segmentation:
 	* voxResNet: [link](https://arxiv.org/abs/1608.05895)
 	* 3d u-net: [link](https://arxiv.org/abs/1606.06650)
-	* Recurrent FCN: [link](https://arxiv.org/abs/1608.03974) 
-* Point-level supervision for semantic segmentation: [(paper)](http://arxiv.org/abs/1506.02106). I have been seeking an elegant way to utilize point level supervision for a long time. This work provides some good experiments and thoughts. In this paper, however, the labelled points in each image still requires to cover all instance (one point per intance), which is not feasible in certain circumstances.   
+	* ~~Recurrent FCN:~~ [link](https://arxiv.org/abs/1608.03974)
+* ~~Point-level supervision for semantic segmentation: [(paper)](http://arxiv.org/abs/1506.02106). I have been seeking an elegant way to utilize point level supervision for a long time. This work provides some good experiments and thoughts. In this paper, however, the labelled points in each image still requires to cover all instance (one point per intance), which is not feasible in certain circumstances.~~   
 * Expressive power of DNN: People may say DNN is able to express very complex non-linear function. But how to quantify such capability? I just found this paper to read. [link](http://arxiv.org/abs/1606.05336) 
 * New Schemes for parameter initialization in CNN, two papers in ICLR 2016: [paper1](http://arxiv.org/pdf/1511.06856v2.pdf) [paper2](http://arxiv.org/pdf/1511.06422v7.pdf)
 * Weight Normalization: a new scheme for better training of CNN. [link](https://arxiv.org/pdf/1602.07868.pdf)
