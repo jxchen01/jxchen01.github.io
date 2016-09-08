@@ -12,6 +12,7 @@ comments: true
 
 ` RL + Deep Learning = Deep RL `
 
+Reference: [David's tutorial](http://icml.cc/2016/tutorials/deep_rl_tutorial.pdf) 
 
 RL is a framework for decision make (math foundation: [Bellman equation](https://en.wikipedia.org/wiki/Bellman_equation)). The core idea is to select the agent's **action** which is mostly likely to achieve the highest ultimate **reward** according to the current environment **state**.
 
