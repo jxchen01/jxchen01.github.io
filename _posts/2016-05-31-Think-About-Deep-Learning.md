@@ -49,9 +49,9 @@ More resources:
 	* also predict depth, [link](http://arxiv.org/abs/1604.05096)
 	* a recent survey, [link](http://arxiv.org/abs/1602.06541)
 	* instance sensitive FCN by Kaiming He, [link1](http://arxiv.org/abs/1603.08678) and [link2](http://arxiv.org/abs/1512.04412)
-	* Combinining with CRF [link1](https://arxiv.org/abs/1412.7062) and [link2](http://arxiv.org/abs/1511.03328)
-	* ENet: for real-time application [link](https://arxiv.org/abs/1606.02147)
-	* Dealing with high resolution images, [paper](http://arxiv.org/abs/1606.02585v1)
+* Combinining with CRF [link1](https://arxiv.org/abs/1412.7062) and [link2](http://arxiv.org/abs/1511.03328)
+* ENet: for real-time application [link](https://arxiv.org/abs/1606.02147)
+* Dealing with high resolution images, [paper](http://arxiv.org/abs/1606.02585v1)
 * Image colorization and syhthesis using deep learning:
 	* MFR+CNN, [link](http://arxiv.org/pdf/1601.04589v1.pdf)
 	* a webpage describing recent works, [link](http://richzhang.github.io/colorization/)
