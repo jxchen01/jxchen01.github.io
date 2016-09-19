@@ -3,6 +3,9 @@ layout: post
 title:  "The First Layer of CNN models"
 date:   2016-07-14
 excerpt: "About the special role that the initial layers in a CNN model is playing"
+tag:
+- CNN
+- Deep Learning Study
 comments: true
 ---
 

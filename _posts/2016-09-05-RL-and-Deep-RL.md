@@ -3,6 +3,9 @@ layout: post
 title:  "RL and Deep RL"
 date:   2016-09-05
 excerpt: "A brief description of Reinforcement Learning (RL) and a high level description of Deep DL"
+tag:
+- Reinforcement Learning
+- Deep Learning Study
 comments: true
 ---
 

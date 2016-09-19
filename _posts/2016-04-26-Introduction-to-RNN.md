@@ -4,6 +4,9 @@ layout: post
 title:  "Introduction to RNN"
 date:   2016-04-26
 excerpt: "A Gentle Introduction to Recurrent Neural Network"
+tag:
+- RNN
+- Deep Learning Study
 comments: true
 ---
 

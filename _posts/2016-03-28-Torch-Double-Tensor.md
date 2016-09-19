@@ -5,8 +5,7 @@ date:   2016-03-28
 excerpt: "Be careful with data type in Torch 7"
 tag:
 - Torch 7
-- Deep Learning 
-- Programming
+- Deep Learning Programming
 comments: true
 ---
 
