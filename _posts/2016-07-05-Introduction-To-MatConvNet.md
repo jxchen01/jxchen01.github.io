@@ -2,7 +2,6 @@
 layout: post
 title:  "Introduction to MatConvNet"
 date:   2016-07-05
-tags: [MatConvNet, Deep Learning Programming]
 excerpt: "A brief introduction to MatConvNet, a deep learning framework in Matlab. Installation, basic usage, coding philosophy, and examples will be introducted."
 comments: true
 ---

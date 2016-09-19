@@ -2,7 +2,6 @@
 layout: post
 title:  "Think about Deep Learning"
 date:   2016-05-31
-tags: [Deep Learning Study]
 excerpt: "My deep learning study note and reading list."
 comments: true
 ---
