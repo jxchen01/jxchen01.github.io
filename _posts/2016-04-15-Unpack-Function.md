@@ -2,6 +2,7 @@
 layout: post
 title:  "Unpack Function"
 date:   2016-04-15
+tag: [Torch 7, Deep Learning Programming]
 excerpt: "The usage of unpack in Torch/Lua"
 comments: true
 ---

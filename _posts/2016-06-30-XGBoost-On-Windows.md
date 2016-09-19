@@ -2,6 +2,7 @@
 layout: post
 title:  "XGBoost on Windows 7"
 date:   2016-06-30
+tag: [Machine Learning, XGBoost]
 excerpt: "Play with XGBoost on Windows 7"
 comments: true
 ---

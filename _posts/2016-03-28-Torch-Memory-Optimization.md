@@ -2,6 +2,7 @@
 layout: post
 title:  "Torch Memory Optimization"
 date:   2016-03-28
+tag: [Torch 7 , Deep Learning Programming]
 excerpt: "The memory issue in Torch 7 and its solution"
 comments: true
 ---
