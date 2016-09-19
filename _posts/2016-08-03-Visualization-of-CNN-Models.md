@@ -2,7 +2,7 @@
 layout: post
 title:  "Visualization of CNN models"
 date:   2016-08-03
-tag: [Deep Learning Study]
+tags: [Deep Learning Study]
 excerpt: "Hands-on practice in visualizaing and understanding CNN models and list of good sources"
 comments: true
 ---
