@@ -24,18 +24,18 @@ Step 1: Read
 
 When you have 5 minuites at the bus station and want to quickly read a paper, open Adobe Read on your iPad. You can select Google Drive as the location of your paper:
 
-<img src="{{ site.url }}/pic/Adobe_Reader_1.PNG" alt="Adobe_Reader_Screen_Shot" style="width: 420px;">
+<img src="{{ site.url }}/pic/Adobe_Reader_1.PNG" alt="Adobe_Reader_Screen_Shot_1" style="width: 420px;">
 
 Then, go to the fold you created to hold all your papers and select the paper you want to read. 
 
-<img src="{{ site.url }}/pic/Adobe_Reader_2.PNG" alt="Adobe_Reader_Screen_Shot" style="width: 420px;">
+<img src="{{ site.url }}/pic/Adobe_Reader_2.PNG" alt="Adobe_Reader_Screen_Shot_2" style="width: 420px;">
 
 
 Step 2: Take Notes  
 
 While reading the paper on your local device (i.e., iPad), you can take notes, highlight the important contents, add annotation, etc.. 
 
-<img src="{{ site.url }}/pic/Adobe_Reader_3.PNG" alt="Adobe_Reader_Screen_Shot" style="width: 420px;">
+<img src="{{ site.url }}/pic/Adobe_Reader_3.PNG" alt="Adobe_Reader_Screen_Shot_3" style="width: 420px;">
 
 After finishing, you can simply click "Done" and "Back", all your notes and annotations will be automatically saved. 
 
@@ -43,7 +43,7 @@ Step 3: Write a summary
 
 One key reason that I choose Google Drive as the cloud space is that Google Drive is much more than a storage space. After reading, I like to write a brief summary of the paper using Google Doc. Then, you can have a quick index of your readings and notes. 
 
-<img src="{{ site.url }}/pic/Adobe_Reader_4.png" alt="Adobe_Reader_Screen_Shot" style="width: 420px;">
+<img src="{{ site.url }}/pic/Adobe_Reader_4.png" alt="Adobe_Reader_Screen_Shot_4" style="width: 420px;">
 
  
 All in all, I feel that Google Drive + Adobe Reader on iPad is a very productive way to read papers, take notes, and keep organized. Moreover, you may share your Google Drive folder within others to have a reading group. 
