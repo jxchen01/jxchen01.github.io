@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wide-Residual-Network"
+title:  "Wide Residual Network"
 date:   2016-10-15
 excerpt: "Reading Note of Wide Residual Network"
 tag:
