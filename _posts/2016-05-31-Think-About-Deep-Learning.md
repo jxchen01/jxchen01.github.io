@@ -39,6 +39,8 @@ More resources:
  
 * The most recent tutorial [(link)](http://icml.cc/2016/tutorials/deep_rl_tutorial.pdf) on ICML 2016. (Note: Really inspiring!)
 
+* An example to practice [(link)](https://jaromiru.com/2016/10/03/lets-make-a-dqn-implementation/)
+
 ## Papers to read
 
 * Unsupervised Learning: This is the most urgent thing I want to learn. 
@@ -53,7 +55,7 @@ More resources:
 	* instance sensitive FCN by Kaiming He, [link1](http://arxiv.org/abs/1603.08678) and [link2](http://arxiv.org/abs/1512.04412)
 	* using CNN+CRF [(link)](http://www.robots.ox.ac.uk/~tvg/publications/2016/InstanceSegmentation.pdf)
 * Combinining with CRF [link1](https://arxiv.org/abs/1412.7062) and [link2](http://arxiv.org/abs/1511.03328)
-* ENet: for real-time application [link](https://arxiv.org/abs/1606.02147)
+* ~~ENet: for real-time application [link](https://arxiv.org/abs/1606.02147)~~
 * Dealing with high resolution images, [paper](http://arxiv.org/abs/1606.02585v1)
 * Image colorization and syhthesis using deep learning:
 	* MFR+CNN, [link](http://arxiv.org/pdf/1601.04589v1.pdf)
@@ -66,26 +68,39 @@ More resources:
 	* voxResNet: [link](https://arxiv.org/abs/1608.05895)
 	* 3d u-net: [link](https://arxiv.org/abs/1606.06650)
 	* ~~Recurrent FCN:~~ [link](https://arxiv.org/abs/1608.03974)
-* ~~Point-level supervision for semantic segmentation: [(paper)](http://arxiv.org/abs/1506.02106). I have been seeking an elegant way to utilize point level supervision for a long time. This work provides some good experiments and thoughts. In this paper, however, the labelled points in each image still requires to cover all instance (one point per intance), which is not feasible in certain circumstances.~~   
+* Weakly Supervised Segmentation
+	* ~~Point-level supervision for semantic segmentation: [(paper)](http://arxiv.org/abs/1506.02106). I have been seeking an elegant way to utilize point level supervision for a long time. This work provides some good experiments and thoughts. In this paper, however, the labelled points in each image still requires to cover all instance (one point per intance), which is not feasible in certain circumstances.~~   
+	* Seed, Expand and Constrain. [link](https://arxiv.org/abs/1603.06098)
 * Expressive power of DNN: People may say DNN is able to express very complex non-linear function. But how to quantify such capability? I just found this paper to read. [link](http://arxiv.org/abs/1606.05336) 
 * New Schemes for parameter initialization in CNN, two papers in ICLR 2016: [paper1](http://arxiv.org/pdf/1511.06856v2.pdf) [paper2](http://arxiv.org/pdf/1511.06422v7.pdf)
+* Weight initialization for RNN. [paper](https://arxiv.org/abs/1511.03771)
 * Weight Normalization: a new scheme for better training of CNN. [link](https://arxiv.org/pdf/1602.07868.pdf)
 * SqueezeNet: A CNN using much less memory without reducing accuracy. [paper](http://arxiv.org/abs/1602.07360)
 * Style transfer [paper](http://arxiv.org/abs/1508.06576) and [code](https://github.com/fzliu/style-transfer)
 * Extreme Learning machine, another type of machine learning algorithms which is closers to human brain [review paper](http://www.sciencedirect.com/science/article/pii/S0893608014002214)
 * Binary CNN: [paper1](http://arxiv.org/abs/1511.00363) and [paper2](http://arxiv.org/abs/1603.05279)
-* Combining CNN with Active Contour: [paper](http://arxiv.org/pdf/1607.05074v1.pdf)
+* ~~Combining CNN with Active Contour: [paper](http://arxiv.org/pdf/1607.05074v1.pdf)~~
 * CNN on graphs: Extend classic CNN which applies on grids (e.g., images) to graph data [paper1](http://arxiv.org/abs/1605.05273) and [paper2](http://arxiv.org/abs/1506.05163)
 * Inside-Outside Network: A method combining information insider region of interest and outside the region of interest. [(link)](http://arxiv.org/abs/1512.04143)
 * A comprehensive comparison of different choices in each component in CNN, such as different activation function or different pooling. [link](http://arxiv.org/abs/1606.02228)
 * CNN in convert sketch to image, [link](https://arxiv.org/abs/1606.03073)
 * Piecewise Training [link](http://arxiv.org/abs/1504.01013)
-* Object detection using R-FCN, [link](https://arxiv.org/abs/1605.06409)
+* Object detection using R-FCN, [link](https://arxiv.org/abs/1605.06409), [code](https://github.com/daijifeng001/R-FCN)
 * Pixel Recuurent Neural Network (best paper in ICML 2016), [link](http://arxiv.org/abs/1601.06759?url_type=39&object_type=webpage&pos=1)
 * Edge detection by DNN. [github link](https://github.com/s9xie/hed/blob/master/README.md)
-* Densely connected CNN [link](http://arxiv.org/pdf/1608.06993.pdf)
-* Wide Residual Network [Torch code](https://github.com/szagoruyko/wide-residual-networks),[paper](http://arxiv.org/abs/1605.07146)
-* A nice guide of Tensorflow, [link](https://www.oreilly.com/learning/hello-tensorflow) 
+* ~~Densely connected CNN [link](http://arxiv.org/pdf/1608.06993.pdf)~~
+* ~~Wide Residual Network [Torch code](https://github.com/szagoruyko/wide-residual-networks),[paper](http://arxiv.org/abs/1605.07146)~~
+* Guide to Tensorflow, [link1](https://www.oreilly.com/learning/hello-tensorflow), [link2](https://www.oreilly.com/learning/hello-tensorflow)
+* Deep learning and human-in-the-loop. [link](https://blogs.technet.microsoft.com/machinelearning/2016/10/17/the-power-of-human-in-the-loop-combine-human-intelligence-with-machine-learning/)
+* Translation aware FCN [link](https://github.com/daijifeng001/TA-FCN)
+* How to implement your own layers in Torch7. [link](https://web.archive.org/web/20160104174845/http://code.madbits.com/wiki/doku.php?id=tutorial_morestuff)
+* Learning Recursive Filters for Low-Level Vision via a Hybrid Neural Network. [link](http://www.sifeiliu.net/linear-rnn)
+* Open problems in AI. [link](http://ai-on.org)
+* Depthwise Separable Convolutions. [link](https://arxiv.org/abs/1610.02357)
+* Bilateral Solver for edge aware smoothing in deep learing. [link](https://arxiv.org/abs/1511.03296)
+* Multiple instance learning in neural network. [link](https://arxiv.org/abs/1610.02501)
+* Deep vision tracking benchmark. [link](https://github.com/foolwood/benchmark_results)
+* 
 
 
 
