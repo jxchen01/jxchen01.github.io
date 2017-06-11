@@ -47,6 +47,8 @@ More resources:
 * Another paper by a startup, Imagia. [(Link)](https://arxiv.org/abs/1702.05174) Co-authored by Yoshua Bengio. The method is also very interesting.  
 * Quick Read:
 	* Fine tuning for medical image analysis [Link](https://arxiv.org/abs/1706.00712)
+	* segAN [Link](https://arxiv.org/abs/1706.01805)
+	* Morphology error detection [Link](https://arxiv.org/abs/1705.10882)
 	* dilated residual network [Link](https://arxiv.org/abs/1705.09914)
 	* anatomically constrained 3D FCN [Link](https://arxiv.org/abs/1705.08302)
 	* for tracking [Link](https://arxiv.org/abs/1705.06368)
@@ -56,6 +58,7 @@ More resources:
 	* DNN for multi-task multi-modality medical image segmentation [Link](https://arxiv.org/abs/1704.03379)
 	* review on DNN for semantic segmentation [Link](https://arxiv.org/abs/1704.06857)
 	* Proximal Segmentation in medical images [Link](https://arxiv.org/abs/1704.06176)
+	* 3D deep supervision [Link](https://arxiv.org/abs/1607.00582), and another similar one [Link](https://arxiv.org/abs/1706.01148)
 * Deformable Convolution Network [Link](https://arxiv.org/abs/1703.06211)
 * Train longer, generalize better [Link](https://arxiv.org/abs/1705.08741),[Github](https://github.com/eladhoffer/bigBatch)
 * Train ImageNet in 1 Hour [Link](https://research.fb.com/publications/ImageNet1kIn1h/)
