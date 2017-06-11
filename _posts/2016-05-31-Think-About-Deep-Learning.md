@@ -43,16 +43,41 @@ More resources:
 
 ## Papers to read
 
+* Must read: A paper from Arterys, a startup in the bay area. [(Link)](https://arxiv.org/abs/1704.04296) The method itself is not of great interest. But, I am eager to see how deep learning is used in startups and how they present the methods. 
+* Another paper by a startup, Imagia. [(Link)](https://arxiv.org/abs/1702.05174) Co-authored by Yoshua Bengio. The method is also very interesting.  
+* Quick Read:
+	* Fine tuning for medical image analysis [Link](https://arxiv.org/abs/1706.00712)
+	* dilated residual network [Link](https://arxiv.org/abs/1705.09914)
+	* anatomically constrained 3D FCN [Link](https://arxiv.org/abs/1705.08302)
+	* for tracking [Link](https://arxiv.org/abs/1705.06368)
+	* 3D FCN and random walk [Link](https://arxiv.org/abs/1704.06544)
+	* Hierarchical 3D FCN [Link](https://arxiv.org/abs/1704.06382)
+	* SeGAN [Link](https://arxiv.org/abs/1703.10239)
+	* DNN for multi-task multi-modality medical image segmentation [Link](https://arxiv.org/abs/1704.03379)
+	* review on DNN for semantic segmentation [Link](https://arxiv.org/abs/1704.06857)
+	* Proximal Segmentation in medical images [Link](https://arxiv.org/abs/1704.06176)
+* Deformable Convolution Network [Link](https://arxiv.org/abs/1703.06211)
+* Train longer, generalize better [Link](https://arxiv.org/abs/1705.08741),[Github](https://github.com/eladhoffer/bigBatch)
+* Train ImageNet in 1 Hour [Link](https://research.fb.com/publications/ImageNet1kIn1h/)
+* Pixel deconvolution network [Link](https://arxiv.org/abs/1705.06820)
+* Dense Transformer Network [Link](https://arxiv.org/abs/1705.08881)
+* An intereting application of adversarial network in segmentation [Link](https://arxiv.org/abs/1704.05712)
+* Interpretable explanation of black box by meaningful pertubation [Link](https://arxiv.org/abs/1704.03296),[Github](https://github.com/jacobgil/pytorch-explain-black-box)
+* Incorporating Built-in Prior to deep learning for segmentation: [Link](https://arxiv.org/abs/1706.02189)
+* Registration: 
+	* Deep Face Alignment: [Link](https://arxiv.org/abs/1706.01789)
+	* Unsupervised Deformable Registration: [Link](https://arxiv.org/abs/1704.06065)
 * Unsupervised Learning: This is the most urgent thing I want to learn. 
 	* A general overview: [link](https://culurciello.github.io//tech/2016/06/10/unsup.html)
 	* ~~Insight from Yann LeCunn and the Facebook AI group about adversial network, a new paradigm for unsuperised learning. [link](https://code.facebook.com/posts/1587249151575490/a-path-to-unsupervised-learning-through-adversarial-networks/)~~ and a key paper introducing [DCGAN](http://arxiv.org/abs/1511.06434).  
 	* A tutorial on Variational Autoencoder, [paper](http://arxiv.org/abs/1606.05908)
 	* A comprehensive tutorial on the concept of "adversarial network", a very promising solution to unsupervised learning. [link](https://ishmaelbelghazi.github.io/ALI/)
 * Instance Segmentation using deep learning: performing segmentation on the instance level (maybe one by one in a recurrent framework or in one shot)
+	* via deep metric learning, [Link](https://arxiv.org/abs/1703.10277)
 	* using recurrent attention, [link](http://arxiv.org/abs/1605.09410)
 	* also predicting depth, [link](http://arxiv.org/abs/1604.05096)
 	* a recent survey, [link](http://arxiv.org/abs/1602.06541)
-	* instance sensitive FCN by Kaiming He, [link1](http://arxiv.org/abs/1603.08678) and [link2](http://arxiv.org/abs/1512.04412)
+	* ~~instance sensitive FCN by Kaiming He~~, [link1](http://arxiv.org/abs/1603.08678) and [link2](http://arxiv.org/abs/1512.04412)
 	* using CNN+CRF [(link)](http://www.robots.ox.ac.uk/~tvg/publications/2016/InstanceSegmentation.pdf)
 * Combinining with CRF [link1](https://arxiv.org/abs/1412.7062) and [link2](http://arxiv.org/abs/1511.03328)
 * ~~ENet: for real-time application [link](https://arxiv.org/abs/1606.02147)~~
@@ -100,7 +125,7 @@ More resources:
 * Bilateral Solver for edge aware smoothing in deep learing. [link](https://arxiv.org/abs/1511.03296)
 * Multiple instance learning in neural network. [link](https://arxiv.org/abs/1610.02501)
 * Deep vision tracking benchmark. [link](https://github.com/foolwood/benchmark_results)
-* 
+* ...
 
 
 
