@@ -46,6 +46,7 @@ More resources:
 * Must read: A paper from Arterys, a startup in the bay area. [(Link)](https://arxiv.org/abs/1704.04296) The method itself is not of great interest. But, I am eager to see how deep learning is used in startups and how they present the methods. 
 * Another paper by a startup, Imagia. [(Link)](https://arxiv.org/abs/1702.05174) Co-authored by Yoshua Bengio. The method is also very interesting.  
 * Quick Read:
+	* Dynamic steerable blocks [Link](https://arxiv.org/abs/1706.00598) 
 	* Fine tuning for medical image analysis [Link](https://arxiv.org/abs/1706.00712)
 	* segAN [Link](https://arxiv.org/abs/1706.01805)
 	* Morphology error detection [Link](https://arxiv.org/abs/1705.10882)
