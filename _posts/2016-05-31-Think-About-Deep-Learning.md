@@ -60,11 +60,12 @@ More resources:
 	* review on DNN for semantic segmentation [Link](https://arxiv.org/abs/1704.06857)
 	* Proximal Segmentation in medical images [Link](https://arxiv.org/abs/1704.06176)
 	* 3D deep supervision [Link](https://arxiv.org/abs/1607.00582), and another similar one [Link](https://arxiv.org/abs/1706.01148)
-* Deformable Convolution Network [Link](https://arxiv.org/abs/1703.06211)
+* ~~Deformable Convolution Network [Link](https://arxiv.org/abs/1703.06211)~~
+* Rethinking Atrous Convolution [Link](https://arxiv.org/abs/1706.05587)
 * Train longer, generalize better [Link](https://arxiv.org/abs/1705.08741),[Github](https://github.com/eladhoffer/bigBatch)
 * Train ImageNet in 1 Hour [Link](https://research.fb.com/publications/ImageNet1kIn1h/)
 * Pixel deconvolution network [Link](https://arxiv.org/abs/1705.06820)
-* Dense Transformer Network [Link](https://arxiv.org/abs/1705.08881)
+* ~~Dense Transformer Network [Link](https://arxiv.org/abs/1705.08881)~~
 * An intereting application of adversarial network in segmentation [Link](https://arxiv.org/abs/1704.05712)
 * Interpretable explanation of black box by meaningful pertubation [Link](https://arxiv.org/abs/1704.03296),[Github](https://github.com/jacobgil/pytorch-explain-black-box)
 * Incorporating Built-in Prior to deep learning for segmentation: [Link](https://arxiv.org/abs/1706.02189)
