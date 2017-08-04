@@ -7,6 +7,7 @@ tag:
 - Deep Learning Study
 comments: true
 ---
+[last updated on Aug. 4, 2017]
 
 # Think about Deep Learning 
 
@@ -45,8 +46,11 @@ More resources:
 
 * Must read: A paper from Arterys, a startup in the bay area. [(Link)](https://arxiv.org/abs/1704.04296) The method itself is not of great interest. But, I am eager to see how deep learning is used in startups and how they present the methods. 
 * Another paper by a startup, Imagia. [(Link)](https://arxiv.org/abs/1702.05174) Co-authored by Yoshua Bengio. The method is also very interesting.  
+* Dual Path Network [Link](https://arxiv.org/abs/1707.01629)
+* Active learning and fine tuning for biomedical image analysis [Link](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.pdf)
 * Quick Read:
 	* Dynamic steerable blocks [Link](https://arxiv.org/abs/1706.00598) 
+	* steerable CNN [Link](https://arxiv.org/abs/1612.08498)
 	* Fine tuning for medical image analysis [Link](https://arxiv.org/abs/1706.00712)
 	* segAN [Link](https://arxiv.org/abs/1706.01805)
 	* Morphology error detection [Link](https://arxiv.org/abs/1705.10882)
@@ -59,14 +63,28 @@ More resources:
 	* DNN for multi-task multi-modality medical image segmentation [Link](https://arxiv.org/abs/1704.03379)
 	* review on DNN for semantic segmentation [Link](https://arxiv.org/abs/1704.06857)
 	* Proximal Segmentation in medical images [Link](https://arxiv.org/abs/1704.06176)
+	* Wavelete Residual Network [Link](https://arxiv.org/abs/1707.09938)
+	* Multi-modale CNN for brain tumor segmentation [Link](https://arxiv.org/pdf/1706.08124.pdf)
+	* Recurrent context learning [Link](https://arxiv.org/pdf/1707.04912.pdf)
 	* 3D deep supervision [Link](https://arxiv.org/abs/1607.00582), and another similar one [Link](https://arxiv.org/abs/1706.01148)
+	* Predicting the ambiguity of foreground object [Link](https://arxiv.org/pdf/1705.00366.pdf)
 * ~~Deformable Convolution Network [Link](https://arxiv.org/abs/1703.06211)~~
+* Guide to semantic segmentation with deep learning, by Qure.ai [Link](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
+* Xception, depthwise separable convolutions. [Link](https://arxiv.org/abs/1610.02357)
+* CortexNet [Link](https://arxiv.org/abs/1706.02735)
 * Rethinking Atrous Convolution [Link](https://arxiv.org/abs/1706.05587)
 * Train longer, generalize better [Link](https://arxiv.org/abs/1705.08741),[Github](https://github.com/eladhoffer/bigBatch)
+* Evaluation without ground truth:
+	* no-gold-standard evaluation, [Link](http://medicalimaging.spiedigitallibrary.org/mobile/article.aspx?articleid=2608878)
+	* pull the plug: a framework for coordinating computer segmentation and human annotation. [Link](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gurari_Pull_the_Plug_CVPR_2016_paper.pdf)
+	* Evaluating segmentation errors without ground truth [Link](https://pdfs.semanticscholar.org/f470/d0a22585a221aec09c668b7fbd061fc9dc20.pdf) 
 * Train ImageNet in 1 Hour [Link](https://research.fb.com/publications/ImageNet1kIn1h/)
+* Apple's ML journal: [Link](https://machinelearning.apple.com/2017/07/07/GAN.html)
+* The future of deep learning, by the Francois Chollet. [Link](https://blog.keras.io/the-future-of-deep-learning.html)
 * Pixel deconvolution network [Link](https://arxiv.org/abs/1705.06820)
 * ~~Dense Transformer Network [Link](https://arxiv.org/abs/1705.08881)~~
 * An intereting application of adversarial network in segmentation [Link](https://arxiv.org/abs/1704.05712)
+* Network Dissection [Link](http://netdissect.csail.mit.edu/final-network-dissection.pdf)
 * Interpretable explanation of black box by meaningful pertubation [Link](https://arxiv.org/abs/1704.03296),[Github](https://github.com/jacobgil/pytorch-explain-black-box)
 * Incorporating Built-in Prior to deep learning for segmentation: [Link](https://arxiv.org/abs/1706.02189)
 * Registration: 
