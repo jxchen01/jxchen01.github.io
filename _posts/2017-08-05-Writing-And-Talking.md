@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writng and Talking"
-date:   2017-03-11
+date:   2017-08-05
 excerpt: "A list of good materials for improving your writing & presentation skills, which should be foundamental elements in a good researcher's skillset."
 tag:
 - MISC
