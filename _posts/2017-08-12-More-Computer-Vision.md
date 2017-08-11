@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Writng and Talking"
+title:  "More Computer Vision"
 date:   2017-08-12
 excerpt: "Computer vision and biomedical image analysis are much more than deep learning. I will use this post to share interesting topics that are not deep learning."
 tag:
