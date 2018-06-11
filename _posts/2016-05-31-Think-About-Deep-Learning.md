@@ -148,9 +148,6 @@ More resources:
 * Bilateral Solver for edge aware smoothing in deep learing. [link](https://arxiv.org/abs/1511.03296)
 * Multiple instance learning in neural network. [link](https://arxiv.org/abs/1610.02501)
 * Deep vision tracking benchmark. [link](https://github.com/foolwood/benchmark_results)
-* ...
-
-
-
+* CliqueNet. [link](https://arxiv.org/abs/1802.10419)
 
 
